@@ -5,44 +5,46 @@ Physics Experiments Analyzer is a Python toolkit designed to simplify the analys
 
 Features:
 
-	•	Experimental Data Analysis: Easily process and analyze data from multiple types of physics experiments.
-	•	Data Visualization: Generate clear, informative, and interactive graphs to better understand your results.
-	•	Flexible Data Support: Import data from common formats such as CSV, TXT, and more.
-	•	Extensible: Designed to be easily extended with new analysis methods and visualization tools.
+•	Experimental Data Analysis: Easily process and analyze data from multiple types of physics experiments.
+•	Data Visualization: Generate clear, informative, and interactive graphs to better understand your results.
+•	Flexible Data Support: Import data from common formats such as CSV, TXT, and more.
+•	Extensible: Designed to be easily extended with new analysis methods and visualization tools.
 
 Installation:
 
 Follow these steps to get started:
 	1.	Clone the repository:
 
-git clone https://github.com/pitelet222/physics-experiments-analyzer.git
-cd physics-experiments-analyzer
+	git clone https://github.com/pitelet222/physics-experiments-analyzer.git
+	cd physics-experiments-analyzer
 
-	2.	Create a virtual environment (recommended):
+2.	Create a virtual environment (recommended):
 
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+		python -m venv venv
+		source venv/bin/activate  # Windows: venv\Scripts\activate
 
-	3.	Install dependencies:
+	
+3.	Install dependencies:
 
-pip install -r requirements.txt
+		pip install -r requirements.txt
 
-	4.	Run the project:
+	
+4.	Run the project:
 
-python main.py
+		python main.py
 
 Example Usage:
 
 from experiments import Experimento
 
 # Create an experiment instance
-exp = Experimento('path/to/data.csv')
+	exp = Experimento('path/to/data.csv')
 
 # Analyze the data
-exp.analizar()
+	exp.analizar()
 
 # Visualize the results
-exp.visualizar()
+	exp.visualizar()
 
 This example loads data from a CSV file, performs the analysis, and displays the results in graphs.
 
