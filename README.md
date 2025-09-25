@@ -5,10 +5,10 @@ Physics Experiments Analyzer is a Python toolkit designed to simplify the analys
 
 Features:
 
-###•	Experimental Data Analysis: Easily process and analyze data from multiple types of physics experiments.
-###•	Data Visualization: Generate clear, informative, and interactive graphs to better understand your results.
-###•	Flexible Data Support: Import data from common formats such as CSV, TXT, and more.
-###•	Extensible: Designed to be easily extended with new analysis methods and visualization tools.
+•  Experimental Data Analysis: Easily process and analyze data from multiple types of physics experiments.
+•	 Data Visualization: Generate clear, informative, and interactive graphs to better understand your results.
+•  Flexible Data Support: Import data from common formats such as CSV, TXT, and more.
+•  Extensible: Designed to be easily extended with new analysis methods and visualization tools.
 
 Installation:
 
