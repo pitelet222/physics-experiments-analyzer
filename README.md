@@ -1,72 +1,60 @@
+
 Physics Experiments Analyzer
 
-Este proyecto proporciona herramientas para analizar datos provenientes de diversos experimentos físicos. Está diseñado para facilitar la interpretación y visualización de datos experimentales, permitiendo a los usuarios obtener conclusiones significativas de manera eficiente.
+Physics Experiments Analyzer is a Python toolkit designed to simplify the analysis and visualization of data from a wide variety of physics experiments. It helps researchers, students, and hobbyists extract meaningful insights quickly and efficiently.
 
-Características
+Features:
 
-Análisis de datos experimentales: Procesa y analiza datos de diferentes tipos de experimentos físicos.
+	•	Experimental Data Analysis: Easily process and analyze data from multiple types of physics experiments.
+	•	Data Visualization: Generate clear, informative, and interactive graphs to better understand your results.
+	•	Flexible Data Support: Import data from common formats such as CSV, TXT, and more.
+	•	Extensible: Designed to be easily extended with new analysis methods and visualization tools.
 
-Visualización de resultados: Genera gráficos y visualizaciones para facilitar la interpretación de los datos.
+Installation:
 
-Soporte para múltiples formatos de datos: Importa datos desde diversos formatos comunes en experimentos físicos.
-
-Instalación
-
-Para instalar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
-
-Clonar el repositorio:
+Follow these steps to get started:
+	1.	Clone the repository:
 
 git clone https://github.com/pitelet222/physics-experiments-analyzer.git
 cd physics-experiments-analyzer
 
-
-Crear un entorno virtual (opcional pero recomendado):
+	2.	Create a virtual environment (recommended):
 
 python -m venv venv
-source venv/bin/activate  # En Windows usa `venv\Scripts\activate`
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
-
-Instalar las dependencias:
+	3.	Install dependencies:
 
 pip install -r requirements.txt
 
-
-Ejecutar el proyecto:
+	4.	Run the project:
 
 python main.py
 
-Ejemplo de uso
-
-A continuación, se muestra un ejemplo básico de cómo utilizar el proyecto:
+Example Usage:
 
 from experiments import Experimento
 
-# Crear una instancia del experimento
-exp = Experimento('ruta/a/los/datos.csv')
+# Create an experiment instance
+exp = Experimento('path/to/data.csv')
 
-# Analizar los datos
+# Analyze the data
 exp.analizar()
 
-# Visualizar los resultados
+# Visualize the results
 exp.visualizar()
 
+This example loads data from a CSV file, performs the analysis, and displays the results in graphs.
 
-Este código carga los datos desde un archivo CSV, realiza el análisis correspondiente y muestra los resultados en gráficos.
+Contributing:
 
-Contribuciones
+Contributions are always welcome! To add features or improvements:
+	1.	Fork the repository.
+	2.	Create a feature branch: git checkout -b new-feature.
+	3.	Make your changes and commit: git commit -am 'Add new feature'.
+	4.	Push to your branch: git push origin new-feature.
+	5.	Open a Pull Request and describe your changes.
 
-Las contribuciones son bienvenidas. Si deseas mejorar o añadir nuevas funcionalidades al proyecto, por favor sigue estos pasos:
+License:
 
-Haz un fork del repositorio.
-
-Crea una nueva rama (git checkout -b nueva-funcionalidad).
-
-Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
-
-Haz push a la rama (git push origin nueva-funcionalidad).
-
-Crea un nuevo Pull Request.
-
-Licencia
-
-Este proyecto está bajo la Licencia MIT.
+This project is licensed under the MIT License.
